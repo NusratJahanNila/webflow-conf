@@ -76,3 +76,36 @@ header{
     font-weight: bold;
     font-size: 65px;
 }
+
+
+
+/* Main style*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Action Style */
+.action{
+    display: flex;
+    gap: 220px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 116px;
+}
+.action-column{
+    display: inline;
+    padding: 60px 0;
+
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.action-description{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+.action img{
+    border-radius: 48px;
+}
