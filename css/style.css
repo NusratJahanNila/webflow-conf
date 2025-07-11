@@ -42,11 +42,11 @@ header{
 }
 /* navbar Style */
 .nav-section{
-    padding: 50px 0px;
+    padding: 50px 100px;
 }
 .nav-section ul{
     display: flex;
-    gap: 800px;
+    /* gap: 900px; */
     justify-content: space-between;
 
 }
@@ -66,8 +66,10 @@ header{
 /* Banner Style */
 .banner{
     text-align: center;
-    margin: 309px 260px 150px 300px;
-    min-height: 500px;
+    /* margin: 300px 260px 150px 300px; */
+    margin-bottom: 110px;
+    padding: 140px 250px;
+    max-height: 500px;
     align-items: center;
     justify-content: center;
 }
