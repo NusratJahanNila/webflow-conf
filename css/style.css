@@ -225,3 +225,43 @@ main{
     border-radius: 48px;
     margin-top: 20px;
 }
+
+
+/* Contact style */
+.contact{
+    margin-top: 90px;
+    display: flex;
+    gap: 115px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 0px;
+}
+.contact-title{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: left;
+}
+form label{
+    font-size: 18px;
+    font-weight: 600;
+}
+form input,textarea{
+    padding: 20px 270px 20px 32px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    margin: 20px 0px ;
+}
+form [placeholder=""]{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+form input,button{
+    display: block;
+}
+textarea{
+    height: 135px;
+}
+form button{
+    width: 100%;
+}
